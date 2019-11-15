@@ -65,7 +65,45 @@ li a {
 .rating{
     display: block;
     margin: auto;
-    width: 15%;
+    width: 12%;
     margin-bottom: 60px;
 }
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.flex li:hover{
+    transform: scale(1.5);
+    background-color: white;
+    margin: 30px;
+}
+.ppp{
+    font-family: Arial;
+    color: gray; 
+    font-size: 15px;
+}
+.footer {
+  position:inherit;
+  left: 0;
+  bottom: 0;
+  width: inherit;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+.social-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social-buttons a{
+    margin: 20px;
+    font-size: 20px
+}
+
 /***********************************************/
+
